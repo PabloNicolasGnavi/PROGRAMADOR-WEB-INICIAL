@@ -4,27 +4,31 @@ body{
 
 .Contenedor{
     background-color: gray;
-    /* padding: 50px; */
-    /* width: 100px; */
-    /* border: 10px solid black; */
-    /* box-sizing: border-box; */
-    /* margin: auto; */
+    padding: 50px;
+    width: 50%;
+    border: 10px solid black;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
 }
 
 .Div01{
     background-color: red;
-    width: 100px;
+    width: 90%;
     height: 100px;
+    margin: 0 auto;
 }
 
 .Div02{
     background-color: green;
-    width: 100px;
+    width: 90%;
     height: 100px;
+    margin: 0 auto;
 }
 
 .Div03{
     background-color: blue;
-    width: 100px;
+    width: 90%;
     height: 100px;
+    margin: auto;
 }
