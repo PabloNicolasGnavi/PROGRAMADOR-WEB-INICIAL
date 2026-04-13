@@ -1,0 +1,32 @@
+#contenedor{
+    width:500px;
+    height:500px;
+    background-color:#888;
+    margin: auto;
+    /* position: relative; */
+}
+
+#primera_caja{
+    width:100px;
+    height:100px;
+    background-color:#f00;
+    /* top: 50px; */
+    /* left: 50px; */
+    /* position: absolute; */
+    /* margin-bottom: 50px; */
+}
+
+#segunda_caja{
+    width:100px;
+    height:100px;
+    background-color:#0f0;
+    left:100px;
+    position: absolute;
+}
+
+#tercera_caja{
+    width:100px;
+    height:100px;
+    background-color:#00f;
+    /* position: absolute; */
+}
