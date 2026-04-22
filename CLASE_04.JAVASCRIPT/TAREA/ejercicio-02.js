@@ -7,7 +7,7 @@ Utilizando estructura de control determinar el medio de transporte más adecuado
 +100000 = avion
  */
 
-var distancia = 10200
+var distancia = 200000
 
 if ((distancia >= 0) && (distancia < 1000)) {console.log('Debes ir a pie')}
 else if ((distancia >= 1000) && (distancia < 10000)) {console.log('Debes ir en bicicleta')}
