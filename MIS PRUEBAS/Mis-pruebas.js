@@ -1,17 +1,8 @@
-const saludo = (nombre) => {
-    console.log(`Hola ${nombre}`);
+function suma(a,b){
+    return a + b
 }
 
-saludo("Juan");
+const resultado = suma(5,4)
 
-function saludar (nombre) {
-    console.log(`Hola ${nombre}`);
-}
+console.log(`El resultado es ${resultado}`)
 
-saludar("Maria");
-
-const despedida = function(nombre) {
-    console.log(`Adiós ${nombre}`);
-}
-
-despedida("Juan");          
