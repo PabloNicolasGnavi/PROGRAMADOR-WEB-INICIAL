@@ -1,8 +1,22 @@
-function suma(a,b){
+function sumar(a, b) {
     return a + b
 }
 
-const resultado = suma(5,4)
+function restar(a, b) {
+    return a - b
+}
 
-console.log(`El resultado es ${resultado}`)
+const numero1 = 1
+const numero2 = 1
+
+var funcion = "r"
+if (funcion == 's') {
+    var resultado = sumar(numero1, numero2)
+    console.log(`La suma es ${resultado}`)
+}
+else if (funcion = "r") {
+    var resultado = restar(numero1, numero2)
+    console.log(`La resta es ${resultado}`)
+
+}
 
