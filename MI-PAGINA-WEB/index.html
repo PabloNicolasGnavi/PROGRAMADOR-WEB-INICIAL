@@ -12,24 +12,112 @@
 
 <body>
     <!-- AREA CABECERA DE LA PAGINA con titulo e imagen de fondo -->
-    <div>
+    <div class="divCabecera">
         <h1 style="text-align: center;">PABLO GÑAVI ESCRITOR</h1>
     </div>
 
 
-    <!-- AREA CARRUSEL con tapa de libros-->
-    <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+    <!-- AREA NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbarColor">
+        <div class="container-fluid">
+
+            <!-- BOTON NAVBAR -->
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <!-- NAVBAR NOVELAS -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            NOVELAS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Novela #1</a></li>
+                            <li><a class="dropdown-item" href="#">Novela #2</a></li>
+                            <li><a class="dropdown-item" href="#">Novela #3</a></li>
+
+
+                        </ul>
+                    </li>
+
+                    <!-- NAVBAR NOVELAS GRAFICAS -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            NOVELAS GRAFICAS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Novela gráfica #1</a></li>
+                            <li><a class="dropdown-item" href="#">Novela gráfica #2</a></li>
+                            <li><a class="dropdown-item" href="#">Novela gráfica #3</a></li>
+                        </ul>
+                    </li>
+
+                    <!--NAVBAR ENSAYOS -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            ENSAYOS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Ensayo #1</a></li>
+                            <li><a class="dropdown-item" href="#">Ensayo #2</a></li>
+                            <li><a class="dropdown-item" href="#">Ensayo #3</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- NAVBAR SKETCHBOOK -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            SKETCHBOOKS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Sketchbook #1</a></li>
+                            <li><a class="dropdown-item" href="#">Sketchbook #2</a></li>
+                            <li><a class="dropdown-item" href="#">Sketchbook #3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- BUSCADOR -->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
             </div>
         </div>
+    </nav>
+
+
+    <!-- AREA CARRUSEL con tapa de libros-->
+    <div id="carouselExample" class="carousel slide" style="width: auto; height: 40vh;">
+        <div class="carousel-inner">
+
+            <!-- CARRUSEL IMAGEN #1 -->
+            <div class="carousel-item active">
+                <img src="PortadasDeLibros/Portada-600x750-01.jpg" class="d-block w-100" alt="Imagen #1">
+            </div>
+ 
+            <!-- CARRUSEL IMAGEN #1 -->
+            <div class="carousel-item">
+                <img src="PortadasDeLibros/Portada-600x750-02.jpg" class="d-block w-100" alt="Imagen #2">
+            </div>
+
+            <!-- CARRUSEL IMAGEN #1 -->
+            <div class="carousel-item">
+                <img src="PortadasDeLibros/Portada-600x750-03.jpg" class="d-block w-100" alt="Imagen #3">
+            </div>
+        </div>
+
+        <!-- CARRUSEL BOTONES  -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -42,7 +130,7 @@
 
 
     <!-- AREA ACORDEON DE NOVELAS -->
-    <h2 style="text-align: center;">
+    <h2 style="text-align: center;" class="h2titulo">
         --- NOVELAS ---
     </h2>
 
@@ -103,7 +191,7 @@
 
     <!-- AREA ACORDEON DE NOVELAS GRAFICAS -->
 
-    <h2 style="text-align: center;">
+    <h2 style="text-align: center;" class="h2titulo">
         --- NOVELAS GRAFICAS ---
     </h2>
 
@@ -164,7 +252,7 @@
 
     <!-- AREA ACORDEON DE ENSAYOS -->
 
-    <h2 style="text-align: center;">
+    <h2 style="text-align: center;" class="h2titulo">
         --- ENSAYOS ---
     </h2>
 
@@ -226,7 +314,7 @@
 
     <!-- AREA ACORDEON DE SKETCHBOOKS -->
 
-    <h2 style="text-align: center;">
+    <h2 style="text-align: center;" class="h2titulo">
         --- SKETCHBOOKS ---
     </h2>
 
@@ -257,8 +345,10 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>SINOPSIS:</strong> 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum perspiciatis nemo ut ratione animi illo, vitae molestias facilis natus similique voluptate eligendi, officiis deleniti, velit quod obcaecati optio nisi. Quibusdam!</p>    
+                    <strong>SINOPSIS:</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum perspiciatis nemo ut ratione
+                        animi illo, vitae molestias facilis natus similique voluptate eligendi, officiis deleniti, velit
+                        quod obcaecati optio nisi. Quibusdam!</p>
                     <a href="...">Seguir leyendo</a>
                 </div>
             </div>
@@ -272,8 +362,10 @@
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <strong>SINOPSIS:</strong> 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum perspiciatis nemo ut ratione animi illo, vitae molestias facilis natus similique voluptate eligendi, officiis deleniti, velit quod obcaecati optio nisi. Quibusdam!</p>    
+                    <strong>SINOPSIS:</strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum perspiciatis nemo ut ratione
+                        animi illo, vitae molestias facilis natus similique voluptate eligendi, officiis deleniti, velit
+                        quod obcaecati optio nisi. Quibusdam!</p>
                     <a href="...">Seguir leyendo</a>
                 </div>
             </div>
@@ -283,7 +375,7 @@
 
     <!-- FOOTER  -->
     <footer>
-        Esta página fue diseñada por Pablo Gnavi.
+        <p>Esta página fue diseñada por Pablo Gnavi</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

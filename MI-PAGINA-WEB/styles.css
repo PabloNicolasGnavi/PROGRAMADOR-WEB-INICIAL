@@ -1,32 +1,33 @@
-#contenedor{
-    width:500px;
-    height:500px;
-    background-color:#888;
-    margin: auto;
-    /* position: relative; */
+.divCabecera {
+    border: 3px solid black;
+    background-image: url(Imagenes/PHOTOSHOP\ \(9\).jpg);
+    padding: 50px;
 }
 
-#primera_caja{
-    width:100px;
-    height:100px;
-    background-color:#f00;
-    /* top: 50px; */
-    /* left: 50px; */
-    /* position: absolute; */
-    /* margin-bottom: 50px; */
+
+.navbarColor{
+    background-color: #cee;
 }
 
-#segunda_caja{
-    width:100px;
-    height:100px;
-    background-color:#0f0;
-    left:100px;
-    position: absolute;
+.carousel {
+    height: 50vh;
 }
 
-#tercera_caja{
-    width:100px;
-    height:100px;
-    background-color:#00f;
-    /* position: absolute; */
+h1 {
+    margin: 0;
+}
+
+.h2titulo {
+    padding: 20px 0px 20px 0;
+    margin:0; 
+    background-color: #cee;
+}
+
+footer {
+    margin:0;
+    padding: 40px;
+    background-color: #1a9;
+    font-weight: 700;
+    text-align: center;
+
 }
