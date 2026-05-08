@@ -1,0 +1,2 @@
+En base al tema elegido para la entrega del proyecto, maquetar 2 secciones distintas del sitio.
+Subir a un repositorio público en GitHub y compartir la URL del mismo.
