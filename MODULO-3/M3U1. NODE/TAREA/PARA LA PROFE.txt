@@ -1,0 +1,5 @@
+Hola profe, la captura de pantalla del 14 muestra lo que me aparecio cuando instale el global express-generator, creo que no es noramal.
+
+La segunda, la del 15, muestra el json instalado con todas las dependencias, pero cuando escribo npm me aparecen esas letras rojas.
+
+Espero se entienda, gracias.
