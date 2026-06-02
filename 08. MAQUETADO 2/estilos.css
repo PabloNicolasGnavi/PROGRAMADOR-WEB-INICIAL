@@ -1,0 +1,28 @@
+/* body{} */
+
+
+h1, h2{
+    font-family: "Alfa Slab One", cursive;
+}
+
+.hero{
+    background: url(img/header.jpg);
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 600px;
+    color: white;
+}
+
+.lista-novedades{
+    list-style: none;
+}
+
+.lista-novedades li {
+    padding: 5px;
+}
+
+footer{
+    background-color: #aaa;
+    color: black;
+    text-align: center;
+}

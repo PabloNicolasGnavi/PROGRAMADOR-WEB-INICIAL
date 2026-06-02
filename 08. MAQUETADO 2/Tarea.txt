@@ -1,2 +1,0 @@
-Maquetar 2 secciones más del sitio que iniciaron en la unidad anterior.
-Subir a un repositorio público en GitHub y compartir la URL del mismo

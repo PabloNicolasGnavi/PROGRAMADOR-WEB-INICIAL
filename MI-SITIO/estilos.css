@@ -1,0 +1,19 @@
+/* body {
+}   */
+
+
+/* .titulo{
+    background: url(nile-paper.jpg);
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 100px;
+    color: white;
+} */
+
+.titulo {
+    padding: 20px;
+    background-image: url(nile-paper.jpg);
+    height: 20vh;
+    text-align: center;
+    box-sizing: border-box;
+}

@@ -1,0 +1,14 @@
+https://git-scm.com/	(de M1U1, Git)
+https://code.visualstudio.com/
+https://es.lipsum.com/
+https://turboscribe.ai/es/downloader/youtube/video?msockid=27c9205aa61c604002a2377ba7f161c3 (Para descargar videos de youtube "turboscribe")
+https://cssgenerator.org/	(Para practicar CSS)
+https://dummyimage.com/		(de clase Bootstrap)
+
+Clase 08.
+https://www.templatemonster.com/html5-website-templates/	(Muestra modelos de páginas web)
+https://www.w3schools.com/	(de clase NODE)
+
+FIGMA
+
+https://handlebarsjs.com/

@@ -26,7 +26,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    
+
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -35,11 +35,11 @@
                         <a class="nav-link active" aria-current="page" href="#">Novedades</a>
                     </li>
 
-                     <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
                     </li>
 
-                     <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Conocenos</a>
                     </li>
                 </ul>
@@ -58,30 +58,92 @@
             <div class="col-lg-3 offset-lg-2">
                 <p>Bajada</p>
                 <h1>Titulo principal</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptatibus vel fuga numquam maxime harum ullam cupiditate impedit quam ratione magnam repudiandae magni eum laudantium dolore esse expedita, quos non?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptatibus vel fuga numquam
+                    maxime harum ullam cupiditate impedit quam ratione magnam repudiandae magni eum laudantium dolore
+                    esse expedita, quos non?</p>
             </div>
         </div>
-    
-    <!-- SECCION NOVEDADES -->
-    <div class="row my-3">
-        <div id="novedades" class="col-md-5 offset-md-2">
-            <h2>Novedades</h2>
-            <ul class="lista-novedades">
-                <li><a href="#"><img src="img/novedades01.jpg">Nuevas recetas 1</a></li>
-                <li><a href="#"><img src="img/novedades01.jpg">Nuevas recetas 2</a></li>
-                <li><a href="#"><img src="img/novedades01.jpg">Nuevas recetas 3</a></li>
-                <li><a href="#"><img src="img/novedades01.jpg">Nuevas recetas 4</a></li>
-                <li><a href="#"><img src="img/novedades01.jpg">Nuevas recetas 5</a></li>
 
-            </ul>
+        <!-- SECCION NOVEDADES -->
+        <div class="row my-3">
+            <div id="novedades" class="col-md-5 offset-md-2">
+                <h2>Novedades</h2>
+                <ul class="lista-novedades">
+                    <li>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="img/novedades01.jpg">Nuevas recetas 1</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/novedades01.jpg">Nuevas recetas 2</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/novedades01.jpg">Nuevas recetas 3</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/novedades01.jpg">Nuevas recetas 4</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/novedades01.jpg">Nuevas recetas 5</a>
+                    </li>
+                </ul>
+            </div>
+        </div> <!--Fin de novedades-->
 
+
+        <!--Carrusel-->
+        <div id="carouselExample" class="carousel slide testimonios">
+            <div class="carousel-inner">
+                <div class="carousel-item active testimonio">
+                    <h2>Cliente uno</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime odit minima impedit a officiis modi nisi laboriosam neque assumenda ipsum illum, totam hic cupiditate, quae, placeat sapiente voluptatibus dolores?</p>
+                </div>
+                <div class="carousel-item testimonio">
+                    <h2>Cliente dos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime odit minima impedit a officiis modi nisi laboriosam neque assumenda ipsum illum, totam hic cupiditate, quae, placeat sapiente voluptatibus dolores?</p>
+                </div>
+                <div class="carousel-item testimonio">
+                    <h2>Cliente tres</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime odit minima impedit a officiis modi nisi laboriosam neque assumenda ipsum illum, totam hic cupiditate, quae, placeat sapiente voluptatibus dolores?</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
-    </div>
-    
-    </div>
 
-    
+        <!-- MODAL -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Modal Prueba</h2>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div> <!--Fin del modal -->
+
+
+    </div> <!--Fin de sección hero-->
+
+
 
 
 

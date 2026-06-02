@@ -1,2 +1,0 @@
-A partir de esta unidad vamos a armar nuestro sitio usando Node.js y Express. La tarea consiste en instalar las dependencias necesarias para empezar a trabajar con estas tecnologías.
-Adjuntar captura de pantalla del archivo package.json resultante de la instalación de dichas dependencias

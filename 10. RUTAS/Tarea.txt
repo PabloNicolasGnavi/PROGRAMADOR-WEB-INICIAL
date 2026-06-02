@@ -1,2 +1,0 @@
-Armar todos los manejadores de ruta necesarios para mostrar las secciones de nuestro sitio. Podemos mostrar solamente un texto con el nombre de la sección en cada ruta, o si nos animamos, incluir el código html de la sección.
-Subir a un repositorio público de Github y compartir la URL

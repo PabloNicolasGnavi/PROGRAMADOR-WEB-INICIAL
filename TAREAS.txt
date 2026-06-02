@@ -1,0 +1,35 @@
+CLASE 1 GIT: entragado.
+Crear una cuenta en GitHub, un repositorio público y subir el archivo compras.txt o algunas de las imágenes que se encuentran dentro de la carpeta materiales y compartir la URL del mismo.
+
+CLASE 2 HTML: entregado.
+Armar el diseño de un CV utilizando las etiquetas aprendidas en la unidad. Se adjunta una imagen a modo de referencia. Subir a un repositorio publico en GitHub y compartir la URL del mismo.
+
+CLASE 3 CSS: entregado.
+Crear un archivo de hoja de estilos y vincularlo al HTML de la tarea anterior (diseño del CV). Agregar un mínimo de 4 reglas en el archivo css. Subir a un repositorio publico en GitHub y compartir la URL del mismo. 
+
+CLASE 4 JS: entragado.
+Ver en pagina o carpeta.
+
+CLASE 5 JS AVANZADO: entregado.
+Ejercicio 1: Generar una función que calcule el promedio de 2 notas de parciales por ejemplo la materia Historia. Ejercicio 2: (un poco más difícil) Programar un contador de caracteres para un textarea
+
+CLASE 6 BOOTSTRAP: entregado.
+Armar un diseño simple donde que incluya varios tipos de contenidos y utilidades de Boostrap. Intentar utilizar al menos un componente de cada tipo. Subir a un repositorio público en GitHub y compartir la URL del mismo.
+
+CLASE 7 MAQUETADO 1: entregado.
+En base al tema elegido para la entrega del proyecto, maquetar 2 secciones distintas del sitio. Subir a un repositorio público en GitHub y compartir la URL del mismo.
+
+CLASE 8 MAQUETADO 2:
+Maquetar 2 secciones más del sitio que iniciaron en la unidad anterior. Subir a un repositorio público en GitHub y compartir la URL del mismo
+
+CLASE 9 NODE:
+A partir de esta unidad vamos a armar nuestro sitio usando Node.js y Express. La tarea consiste en instalar las dependencias necesarias para empezar a trabajar con estas tecnologías. Adjuntar captura de pantalla del archivo package.json resultante de la instalación de dichas dependencias
+
+CLASE 10 RUTAS:
+Armar todos los manejadores de ruta necesarios para mostrar las secciones de nuestro sitio. Podemos mostrar solamente un texto con el nombre de la sección en cada ruta, o si nos animamos, incluir el código html de la sección. Subir a un repositorio público de Github y compartir la URL
+
+CLASE 11 PETICIONES:
+Armar el funcionamiento del formulario de contacto de nuestro sitio, en la opción de material complementario tenemos un paso a paso que nos va a ayudar a la hora de poder programarlo. Subir a un repositorio público de Github y compartir la URL.
+
+CLASE 12 SESIONES:
+Armar una ruta que escriba una variable de sesión y otra que la muestre al usuario. Subir a un repositorio público de Github y compartir la URL.
