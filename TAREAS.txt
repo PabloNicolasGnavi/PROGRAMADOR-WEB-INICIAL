@@ -22,7 +22,7 @@ En base al tema elegido para la entrega del proyecto, maquetar 2 secciones disti
 CLASE 8 MAQUETADO 2:
 Maquetar 2 secciones más del sitio que iniciaron en la unidad anterior. Subir a un repositorio público en GitHub y compartir la URL del mismo
 
-CLASE 9 NODE:
+CLASE 9 NODE: entregado.
 A partir de esta unidad vamos a armar nuestro sitio usando Node.js y Express. La tarea consiste en instalar las dependencias necesarias para empezar a trabajar con estas tecnologías. Adjuntar captura de pantalla del archivo package.json resultante de la instalación de dichas dependencias
 
 CLASE 10 RUTAS:
