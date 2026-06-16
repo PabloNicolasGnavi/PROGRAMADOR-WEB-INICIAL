@@ -33,3 +33,6 @@ Armar el funcionamiento del formulario de contacto de nuestro sitio, en la opci�
 
 CLASE 12 SESIONES:
 Armar una ruta que escriba una variable de sesión y otra que la muestre al usuario. Subir a un repositorio público de Github y compartir la URL.
+
+CLASE 13. INTRODUCCIÓN A LAS BASES DE DATOS: entregado.
+Armar la base de datos y tabla que aparece en el archivo Ejercicio - base de datos.doc. Adjuntar archivo .sql con la base de datos y tabla creada.
