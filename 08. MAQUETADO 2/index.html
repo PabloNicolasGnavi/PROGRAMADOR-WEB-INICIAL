@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>MAQUETADO 2</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
@@ -26,16 +26,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Novedades</a>
+                        <a class="nav-link" href="#novedades">Novedades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Conocenos</a>
+                        <a class="nav-link" href="#conocenos">Conocenos</a>
                     </li>
                 </ul>
             </div>
@@ -44,7 +44,7 @@
 
     <!--Container fluid-->
     <div class="container-fluid">
-        <div id="home" class="row align-items-center hero">
+        <div id="home" class="row align-items-center hero scroll_section">
             <div class="col-lg-3 offset-lg-2">
                 <p>Bajada</p>
                 <h1>Titulo principal</h1>
@@ -127,9 +127,8 @@
                         </button>
                     </div>
                 </div><!--Cierra div testimonios-->
-            </div>
+            </div><!--Cierra Carrusel-->
         </div><!--Fin de novedades-->
-
 
 
         <!-- Modal -->
@@ -147,10 +146,123 @@
 
                 </div>
             </div>
-        </div>
+        </div><!--Fin del modal-->
 
 
+        <!--Historia-->
+        <div id="historia" class="row align-items-center py-4">
+            <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+                <img src="img/historia_1.jpg" alt="historia 1" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-3 d-none d-sm-block">
+                <img src="img/historia_2.jpg" alt="historia_2" class="img-fluid">
+            </div>
+            <div class="col-12 d-sm-none">
+                <img src="img/historia_3.jpg" alt="historia 3" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+                <h2>Historia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos amet quis dolores aut, accusamus
+                    deserunt blanditiis laboriosam animi nostrum! Aut nesciunt alias a facilis, tempora animi sequi
+                    aliquam aperiam sunt.</p>
+            </div>
+        </div><!--Fin de historia-->
 
+        <!--Nosotros-->
+        <div id="nosotros" class="row align-items-stretch my-3 staff py-4">
+            <div class="col-lg-8 offset-lg-2">
+                <h2>Nosotros</h2>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros01.jpg" class="card-img-top" alt="Diana Reyes">
+                            <div class="card-body">
+                                <h5 class="card-title">Diana Reyes</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+                                    nostrum expedita natus velit ullam enim rem corporis animi, exercitationem nobis
+                                    esse modi voluptas temporibus error. Officia veniam voluptatum eos nulla!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros02.jpg" class="card-img-top" alt="Diana Reyes">
+                            <div class="card-body">
+                                <h5 class="card-title">Diana Reyes</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+                                    nostrum expedita natus velit ullam enim rem corporis animi, exercitationem nobis
+                                    esse modi voluptas temporibus error. Officia veniam voluptatum eos nulla!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros03.jpg" class="card-img-top" alt="Diana Reyes">
+                            <div class="card-body">
+                                <h5 class="card-title">Diana Reyes</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+                                    nostrum expedita natus velit ullam enim rem corporis animi, exercitationem nobis
+                                    esse modi voluptas temporibus error. Officia veniam voluptatum eos nulla!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros04.jpg" class="card-img-top" alt="Diana Reyes">
+                            <div class="card-body">
+                                <h5 class="card-title">Diana Reyes</h5>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+                                    nostrum expedita natus velit ullam enim rem corporis animi, exercitationem nobis
+                                    esse modi voluptas temporibus error. Officia veniam voluptatum eos nulla!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--Fin de Nosotros-->
+
+        <!--Visitanos-->
+        <div id="conocenos" class="row py-4">
+            <div class="col-md-4 offset-md-2">
+                <h2>Visitanos</h2>
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.2945903120494!2d-58.388675225138066!3d-34.74817126513995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2bb2b655b0d%3A0x8543c64b95511791!2sMedrano%20951%2C%20B1828%20Banfield%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1781735396725!5m2!1ses!2sar">
+                    </iframe>
+                </div>
+            </div><!--Cierra div con id visitanos-->
+
+            <!--Formulario-->
+            <div class="col-md-4 mt-4 mt-sm-0">
+                <h2>Contactanos</h2>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nobre">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="apellido">
+                    </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@email.com">
+                    </div>
+                    <div class="col-12">
+                        <label for="tel" class="form-label">Tel</label>
+                        <input type="text" class="form-control" id="tel" placeholder="...">
+                    </div>
+                    <div class="col-12">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div><!--Cierre de div formulario-->
+
+        </div><!--Cierra div id conocenos-->
 
     </div><!--Fin del container fluid-->
 
