@@ -19,7 +19,7 @@ Armar un diseño simple donde que incluya varios tipos de contenidos y utilidade
 CLASE 7 MAQUETADO 1: entregado.
 En base al tema elegido para la entrega del proyecto, maquetar 2 secciones distintas del sitio. Subir a un repositorio público en GitHub y compartir la URL del mismo.
 
-CLASE 8 MAQUETADO 2:
+CLASE 8 MAQUETADO 2: entregado.
 Maquetar 2 secciones más del sitio que iniciaron en la unidad anterior. Subir a un repositorio público en GitHub y compartir la URL del mismo
 
 CLASE 9 NODE: entregado.
@@ -36,3 +36,5 @@ Armar una ruta que escriba una variable de sesión y otra que la muestre al usua
 
 CLASE 13. INTRODUCCIÓN A LAS BASES DE DATOS: entregado.
 Armar la base de datos y tabla que aparece en el archivo Ejercicio - base de datos.doc. Adjuntar archivo .sql con la base de datos y tabla creada.
+
+CLASE 14.

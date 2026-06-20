@@ -39,7 +39,7 @@ app.get('/destacados', function(req,res){
 
 // Ruta 3
 app.get('/precios', function(req,res){
-  res.send('Hola soy la pagina de precios')
+  res.render('precios')
 }) //Esta ruta funcionó bien
 
 // catch 404 and forward to error handler
