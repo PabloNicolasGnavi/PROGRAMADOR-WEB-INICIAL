@@ -1,0 +1,14 @@
+node -v
+npm -v
+node
+.exit
+npm init
+npm i --global express-generator
+npx express-generator --view=hbs
+npm i nodemon
+npm i
+npm start
+localhost:3000
+
+npm i --global express-generator
+npx express-generator --view=hbs
