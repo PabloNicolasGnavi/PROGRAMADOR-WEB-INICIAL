@@ -22,13 +22,74 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+
+// Ruta de novela 1
+app.get('/novela-01', function (req, res) {
+  res.send('En esta página debería aparecer un pdf con una novela')
+}) //Esta ruta funcionó bien
+
+// Ruta de novela 02
+app.get('/novela-02', function (req, res) {
+  res.send('En esta página debería aparecer un pdf con una novela')
+}) //Esta ruta funcionó bien
+
+// Ruta de novela 03
+app.get('/novela-03', function (req, res) {
+  res.send('En esta página debería aparecer un pdf con una novela')
+}) //Esta ruta funcionó bien
+
+// Ruta de novela 04
+app.get('/novela-04', function (req, res) {
+  res.send('En esta página debería aparecer un pdf con una novela')
+}) //Esta ruta funcionó bien
+
+// Ruta de novela 05
+app.get('/novela-05', function (req, res) {
+  res.send('En esta página debería aparecer un pdf con una novela')
+}) //Esta ruta funcionó bien
+
+// Ruta de novela 06
+app.get('/novela-06', function (req, res) {
+  res.send('En esta página debería aparecer un pdf con una novela')
+}) //Esta ruta funcionó bien
+
+// Ruta de novela grafica 01
+app.get('/novela-grafica-01', function (req, res) {
+  res.send('En esta página debería aparecer un pdf con una novela grafica')
+}) //Esta ruta funcionó bien
+
+// Ruta de novela grafica 02
+app.get('/novela-grafica-02', function (req, res) {
+  res.send('En esta página debería aparecer un pdf con una novela grafica')
+}) //Esta ruta funcionó bien
+
+// Ruta de novela grafica 03
+app.get('/novela-grafica-03', function(req,res){
+  res.send('En esta página debería aparecer un pdf con una novela grafica')
+  }) //Esta ruta funcionó bien
+
+// Ruta de novela grafica 04
+app.get('/novela-grafica-04', function(req,res){
+  res.send('En esta página debería aparecer un pdf con una novela grafica')
+  }) //Esta ruta funcionó bien
+
+// Ruta de novela grafica 05
+app.get('/novela-grafica-05', function(req,res){
+  res.send('En esta página debería aparecer un pdf con una novela grafica')
+  }) //Esta ruta funcionó bien
+
+// Ruta de novela grafica 06
+app.get('/novela-grafica-06', function(req,res){
+  res.send('En esta página debería aparecer un pdf con una novela grafica')
+  }) //Esta ruta funcionó bien
+
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   next(createError(404));
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};

@@ -12,3 +12,6 @@ localhost:3000
 
 npm i --global express-generator
 npx express-generator --view=hbs
+npm i nodemon
+npm start
+localhost:3000
